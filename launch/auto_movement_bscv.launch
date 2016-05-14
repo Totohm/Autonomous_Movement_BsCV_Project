@@ -1,6 +1,6 @@
 <launch>
   <include file="$(find rplidar_ros)/launch/rplidar.launch" />
   <include file="$(find turtlebot_bringup)/launch/minimal.launch"/>
-  <node pkg="autonomous_movement_bscv_2016" name="NodeSubAM" type="NodeSubAM" output="screen">
+  <node pkg="Autonomous_Movement_BsCV_Project" name="NodeSubAM" type="NodeSubAM" output="screen">
   </node>
 </launch>
